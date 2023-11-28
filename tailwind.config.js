@@ -1,7 +1,9 @@
 /*eslint-env node*/
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,tx,jsx,tsx}"],
   mode: "jit",
   theme: {
     extend: {
